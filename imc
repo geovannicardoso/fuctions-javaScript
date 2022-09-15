@@ -1,0 +1,4 @@
+function imc (peso,alt){
+   imc = peso / (alt * alt);
+   return imc;
+}module.exports = imc

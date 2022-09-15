@@ -1,0 +1,13 @@
+// Crie uma um programa de saúde, nesse programa desenvolva uma função que calcula o imc de pacientes,
+// a função deverá receber os  seguintes parâmetros, peso e altura.
+
+const prompt = require ('prompt-sync')();
+const imc = require('./imc');
+const dads = require ('./imc');
+
+let alt = Number (prompt('Digite á Altura: '));
+let peso = Number (prompt('Digite á peso: '));
+let toTal = 0
+
+toTal = imc(peso,alt);
+console.log(`Seu imc é: ${toTal}`)
